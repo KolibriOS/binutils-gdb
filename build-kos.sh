@@ -5,7 +5,7 @@
 
 set -e
 
-TARGET=i586-kos-mingw32
+TARGET=i586-kolibrios
 KOS_SDK=/opt/kolibrios-sdk
 
 ./configure --target=$TARGET \
